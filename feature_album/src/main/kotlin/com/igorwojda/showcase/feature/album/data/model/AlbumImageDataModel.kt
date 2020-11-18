@@ -11,6 +11,6 @@ internal data class AlbumImageDataModel(
 )
 
 internal fun AlbumImageDataModel.toDomainModel() = AlbumImageDomainModel(
-    url = this.url,
+    url = "https://www.vaticannews.va/content/dam/vaticannews/agenzie/images/reuters/2020/06/01/23/1591045951914.JPG/_jcr_content/renditions/cq5dam.thumbnail.cropped.1000.563.jpeg",
     size = this.size.toDomainEnum()
 )

@@ -19,9 +19,9 @@ internal fun AlbumDataModel.toDomainModel(): AlbumDomainModel {
 
     return AlbumDomainModel(
         mbId = this.mbId,
-        name = this.name,
-        artist = this.artist,
-        images = images ?: listOf(),
-        wiki = this.wiki?.toDomainModel()
+        name = "LA EMERGENCIA DEL COVID 19 Y SUS EFECTOS EN LA SALUD BOLIVIANA",
+        artist = "Qué es el COVID 19?\n" +
+                "Es una enfermedad infecciosa causada por el coronavirus. El contagio se produce cuando una persona enferma tose o estornuda y expulsa partículas del virus que entran en contacto con otras personas.",
+        images = images ?: listOf()
     )
 }

@@ -8,19 +8,22 @@
     android:focusable="true"
     android:gravity="center_horizontal"
     android:background="@android:color/transparent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
     <com.google.android.material.card.MaterialCardView
+
         android:layout_width="@dimen/image_size"
         android:layout_height="@dimen/image_size"
         app:cardCornerRadius="8dp"
-        app:cardBackgroundColor="#24282B"
-        android:layout_margin="8dp"
+        app:cardBackgroundColor="#424242"
+        android:layout_margin="10dp"
         app:cardElevation="0dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
 
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="match_parent"
@@ -35,7 +38,15 @@
             android:layout_gravity="center"
             android:id="@+id/coverErrorImageView"
             android:visibility="gone"/>
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#424242"
+            android:lines="1"
+            android:text="Modulo 2"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:elegantTextHeight="true"/>
     </com.google.android.material.card.MaterialCardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

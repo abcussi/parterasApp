@@ -2,14 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/featureAlbumNavGraph"
-        android:title="@string/albums"
+        android:title="Modulos"
         android:icon="@drawable/ic_round_dashboard"/>
     <item
         android:id="@+id/featureFavouriteNavGraph"
-        android:title="@string/favorites"
+        android:title="Salud"
         android:icon="@drawable/ic_round_favorite"/>
     <item
         android:id="@+id/featureProfileNavGraph"
-        android:title="@string/profile"
+        android:title="Contactanos"
         android:icon="@drawable/ic_round_person"/>
 </menu>

@@ -12,7 +12,6 @@ import org.kodein.di.Kodein
 import org.kodein.di.KodeinAware
 import org.kodein.di.android.x.androidXModule
 import timber.log.Timber
-
 /*
 False positive "Unused symbol" for a custom Android application class referenced in AndroidManifest.xml file:
 https://youtrack.jetbrains.net/issue/KT-27971
